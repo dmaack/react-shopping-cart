@@ -8,7 +8,7 @@ import Products from './components/Products';
 import ShoppingCart from './components/ShoppingCart';
 
 //Contexts
-import ProductContext from './contexts/ProductContext';
+import { ProductContext } from './contexts/ProductContext';
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
 				render={() => (
 					<Products
 						products={products}
-						addItem={addItem}
+						// addItem={addItem}
 					/>
 				)}
 			/>
