@@ -6,8 +6,9 @@ import Product from './Product';
 //Contexts
 import { ProductContext } from '../contexts/ProductContext';
 
-const Products = props => {
+const Products = () => {
 	const { products, addItem } = useContext(ProductContext);
+		console.log(products);
 
 	return (
 		<div className="products-container">
